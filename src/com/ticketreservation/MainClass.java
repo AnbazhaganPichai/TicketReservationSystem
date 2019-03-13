@@ -11,6 +11,8 @@ public class MainClass {
 		System.out.println("Hello World!!");
 		//DbBConnector db= new DbBConnector();
 		IReservationHandler handler = new ReservationHandler();
+		handler.searchBus();
+		handler.addBus();
 		handler.viewBus();
 		System.out.println("after connection");
 
